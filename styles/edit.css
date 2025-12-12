@@ -1,0 +1,62 @@
+@import url(variables.css);
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid var(--primary-border-color);
+  border-radius: 6px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  color: var(--white);
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn, 
+.cancel {
+  background: var(--bg-text-secondary-blue);
+  transition: background 0.5s linear;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+}
+
+.btn:hover, 
+.cancel:hover {
+  background: var(--bg-text-secondary-opacity-blue);
+}
+

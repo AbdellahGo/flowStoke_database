@@ -1,0 +1,16 @@
+@import url(./variables.css);
+
+body {
+  background-color: var(--white);
+  color: var(--primary-text-blue);
+}
+
+
+/* Dashboard */
+.dashboard {
+  padding: 32px;
+}
+
+
+
+
